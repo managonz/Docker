@@ -12,4 +12,4 @@ RUN chmod 777 *
 #dnp3 port
 EXPOSE 20000
 #Start the slave
-ENTRYPOINT ./dnp3mqtt
+ENTRYPOINT ./watchdog_dnp3mqtt
